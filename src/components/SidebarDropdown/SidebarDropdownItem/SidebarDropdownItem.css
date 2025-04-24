@@ -1,0 +1,81 @@
+.sidebar-dropdown-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0 8px 16px;
+  border: none;
+  height: 50px;
+  color: black;
+  border-radius: 4px;
+}
+
+.sidebar-dropdown-item__container {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.sidebar-dropdown-item__container:hover {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.sidebar-dropdown-item__container-active {
+  background-color: #e5e5e5;
+  color: black;
+}
+
+.sidebar-dropdown-item__title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins";
+  margin: 0;
+}
+
+.sidebar-dropdown-item__button {
+  background: url(../../../images/icons/chevron-up-black.svg) center no-repeat;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  animation: firstRotation 0.2s linear forwards;
+}
+
+.sidebar-dropdown-item__button-active {
+  animation: secondRotation 0.2s linear forwards;
+}
+
+@keyframes firstRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes secondRotation {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.sidebar-dropdown-item__bulletpoints {
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  overflow: hidden;
+}

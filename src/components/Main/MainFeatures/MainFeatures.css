@@ -1,0 +1,258 @@
+.main-features {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: calc(100% - 220px);
+  max-width: 1400px;
+  padding: 90px 0 110px;
+  margin: auto;
+}
+
+.main-features__title {
+  /* font-family: "DM Serif Display", sans-serif, Arial; */
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  margin: 0;
+  padding: 0 0 60px;
+  max-width: 1000px;
+  align-self: center;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+.main-features__benefits-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 40px; */
+  color: white;
+}
+
+.main-feature__paragraph {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1515px) {
+  .main-features__benefits-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .main-feature {
+    width: -webkit-fill-available;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .main-feature {
+    max-width: 510px;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+  .main-features__title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-feature {
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .main-feature {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .main-features {
+    /* padding: 70px 20px 90px; */
+  }
+  .main-feature {
+    /* max-width: 370px; */
+  }
+  .main-features__title {
+    padding: 0 0 40px;
+  }
+  .main-feature__subtitle {
+    /* font-size: 20px; */
+    /* margin: 0 0 5px; */
+  }
+  .main-feature__paragraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main-features {
+    padding: 90px 20px 110px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-features {
+    padding: 70px 20px 90px;
+  }
+  .main-feature {
+    max-width: 320px;
+  }
+  .main-feature__icon {
+    height: 30px;
+  }
+  .main-feature__subtitle {
+    font-size: 18px;
+  }
+  .main-feature__paragraph {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main-features {
+    padding: 50px 20px 70px;
+    width: auto;
+  }
+  .main-features__benefits-container {
+    gap: 30px;
+  }
+  .main-feature {
+    /* max-width: fit-content; */
+    /* padding: 15px 10px 15px; */
+    max-width: none;
+  }
+
+  .main-features__title {
+    max-width: 600px;
+    font-size: 28px;
+  }
+  .main-feature__icon {
+  }
+  .main-feature__subtitle {
+    font-size: 15px;
+
+    /* font-size: 15px; */
+  }
+  .main-feature__paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-features__benefits-container {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-features__title {
+    /* font-size: 45px;
+    padding: 0 0 30px; */
+  }
+  .main-feature__subtitle {
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-features__title {
+    /* font-size: 40px;
+    padding: 0 0 20px; */
+  }
+  .main-features__benefits-container {
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+  }
+  .main-feature {
+    /* width: -webkit-fill-available;
+    max-width: none; */
+  }
+  .main-feature__subtitle {
+    /* width: 370px; */
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .main-features__benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-feature {
+    width: -webkit-fill-available;
+    max-width: none;
+  }
+  .main-feature__icon {
+  }
+  .main-feature__subtitle {
+    width: 370px;
+  }
+  .main-feature__paragraph {
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-feature {
+  }
+  .main-feature__icon {
+  }
+  .main-feature__subtitle {
+  }
+  .main-feature__paragraph {
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .main-features__title {
+    /* font-size: 35px; */
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .main-feature {
+  }
+  .main-feature__icon {
+  }
+  .main-feature__subtitle {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .main-feature__paragraph {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-features__title {
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 0 25px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main-features {
+    padding: 50px 20px 70px;
+  }
+  .main-features__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-features__title {
+    /* font-size: 22px;
+    padding: 0 0 10px; */
+  }
+}

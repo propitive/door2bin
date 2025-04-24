@@ -1,0 +1,43 @@
+.email-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+}
+
+.email-list__header {
+  margin: 0;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.email-list__form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.email-list__input {
+  height: 34px;
+  width: 324px;
+  font-size: 15px;
+  padding: 2px 0 2px 10px;
+}
+
+@media screen and (max-width: 730px) {
+  .email-list__input {
+    width: -webkit-fill-available;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .email-list__form {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .email-list__input {
+    width: calc(100% - 12px);
+  }
+}

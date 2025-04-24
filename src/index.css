@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@1&family=Playfair+Display:wght@700&family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+@import url("/src/components/About/About.css");
+@import url("/src/components/About/AboutHero/AboutHero.css");
+@import url("/src/components/About/AboutHow/AboutHow.css");
+@import url("/src/components/About/AboutMission/AboutMission.css");
+@import url("/src/components/About/AboutParallax/AboutParallax.css");
+@import url("/src/components/About/AboutValues/AboutValues.css");
+@import url("/src/components/App/App.css");
+@import url("/src/components/BookOnlineButton/BookOnlineButton.css");
+@import url("/src/components/Dropdown/Dropdown.css");
+@import url("/src/components/EmailListForm/EmailListForm.css");
+@import url("/src/components/Footer/Footer.css");
+@import url("/src/components/Header/Header.css");
+@import url("/src/components/Main/Main.css");
+@import url("/src/components/Main/MainDropdown/MainDropdown.css");
+@import url("/src/components/Main/MainDropdown/MainDropdownBulletpoint/MainDropdownBulletpoint.css");
+@import url("/src/components/Main/MainDropdown/MainDropdownItem/MainDropdownItem.css");
+@import url("/src/components/Main/MainDropdown/MainDropdownMenu/MainDropdownMenu.css");
+@import url("/src/components/Main/MainFeature/MainFeature.css");
+@import url("/src/components/Main/MainFeature/MainFeature.css");
+@import url("/src/components/Main/MainFeatures/MainFeatures.css");
+@import url("/src/components/Main/MainParallax/MainParallax.css");
+@import url("/src/components/Main/MainServices/MainServices.css");
+@import url("/src/components/Main/MainSteps/MainSteps.css");
+@import url("/src/components/Main/MainSteps/MainStep/MainStep.css");
+@import url("/src/components/Modal/ModalEmailList/ModalEmailList.css");
+@import url("/src/components/Modal/ModalTemplate/ModalTemplate.css");
+@import url("/src/components/SidebarDropdown/SidebarDropdownBulletpoint/SidebarDropdownBulletpoint.css");
+@import url("/src/components/SidebarDropdown/SidebarDropdownItem/SidebarDropdownItem.css");
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,73 @@
+.services-submenu {
+  background-color: white;
+  width: 248px;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  padding: 0;
+  top: 66px;
+  z-index: 3;
+  border: #80808052 solid 1px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.services-submenu.clicked {
+  display: none;
+}
+
+.dropdown__li {
+  /* background-color: rgba(0, 41, 75, 0.7); */
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown__li:hover {
+  background-color: #808080;
+  /* background-color: black; */
+  width: 248px;
+  color: #e5e5e5;
+  border-radius: 10px;
+}
+
+.dropdown__li:first-of-type {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dropdown__li:last-child {
+  /* THIS IS WHAT IS MAKING THE LAST LI BE ROUND
+    SEE IF YOU CAN HAVE THE WHOLE BACKGROUND OF THE 
+    SERVICES SUBMENU BE WHITE
+*/
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border-radius: 10px; */
+}
+
+.dropdown__li:last-child:hover {
+  /* background-color: black; */
+  background-color: #e5e5e5;
+  width: 248px;
+  /* color: #e5e5e5; */
+  color: black;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  /* color: black; */
+  color: black;
+  padding: 16px;
+}
+
+.nav-item:hover {
+  /* color: #ff4500; */
+  color: black;
+}

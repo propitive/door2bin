@@ -1,0 +1,135 @@
+.dropdown-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid 1px;
+  cursor: pointer;
+}
+
+.dropdown-item__title {
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  margin: 0;
+  font-size: 20px;
+}
+
+.dropdown-item__button {
+  background: url(../../../../images/icons/chevron-up.svg) center no-repeat;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  animation: firstRotation 0.24s linear forwards;
+}
+
+.dropdown-item__button-active {
+  animation: secondRotation 0.24s linear forwards;
+}
+
+@keyframes firstRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes secondRotation {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.dropdown-item__bulletpoints {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  overflow: hidden;
+  margin: 10px 0 0;
+  gap: 10px;
+}
+
+@media screen and (max-width: 870px) {
+  .dropdown-item {
+  }
+  .dropdown-item__title {
+    /* font-size: 18px; */
+  }
+  .dropdown-item__bulletpoints {
+    gap: 0;
+  }
+  .dropdown-bulletpoint {
+    align-items: center;
+  }
+  .dropdown-bulletpoint__bulletsymbol {
+    height: 20px;
+    margin: 0;
+  }
+  .dropdown-bulletpoint__text {
+    font-size: 17px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .dropdown-item {
+    height: 45px;
+  }
+  .dropdown-item__title {
+  }
+  .dropdown-item__bulletpoints {
+    margin: 10px 0 0;
+  }
+  .dropdown-bulletpoint {
+    height: 40px;
+    gap: 20px;
+  }
+  .dropdown-bulletpoint__bulletsymbol {
+  }
+  .dropdown-bulletpoint__text {
+    /* font-size: 16px; */
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .dropdown-item {
+    height: 40px;
+  }
+  .dropdown-item__title {
+    /* font-size: 16px; */
+  }
+  .dropdown-item__bulletpoints {
+  }
+  .dropdown-bulletpoint {
+    height: 65px;
+    gap: 15px;
+  }
+  .dropdown-bulletpoint__bulletsymbol {
+    height: 15px;
+  }
+  .dropdown-bulletpoint__text {
+    /* font-size: 14px; */
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .dropdown-item__bulletpoints {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dropdown-item__bulletpoints {
+    gap: 10px;
+  }
+}

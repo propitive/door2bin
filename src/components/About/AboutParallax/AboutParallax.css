@@ -1,0 +1,222 @@
+.about-parallax__parallax {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 550px;
+  width: calc(100% - 220px);
+  max-width: 1400px;
+  margin: auto;
+}
+
+.about-parallax__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.about-parallax__parallax-header {
+  /* font-family: "DM Serif Display", sans-serif, Arial; */
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 2;
+
+  margin: 0;
+  /* position: absolute; */
+  /* bottom: 75px; */
+  /* top: 140px;
+  right: 240px; */
+  font-size: 45px;
+  line-height: 64px;
+  color: white;
+  width: 500px;
+}
+
+.about-parallax__parallax-text {
+  font-family: "poppins", sans-serif, Arial;
+  font-weight: 500;
+  font-style: normal;
+  z-index: 2;
+
+  margin: 0;
+  /* position: absolute;
+  top: 290px;
+  right: 130px; */
+  font-size: 20px;
+  color: white;
+  width: 600px;
+}
+
+.about-parallax__parallax-bold-text {
+  color: #046a38;
+}
+
+.about-parallax__parallax-button-cta {
+  position: absolute;
+  top: 380px;
+  left: 110px;
+  width: 200px;
+  height: 45px;
+  font-size: 17px;
+  padding: 0;
+  cursor: pointer;
+  align-self: center;
+  z-index: 2;
+}
+
+.about-parallax__parallax-button-about {
+  position: absolute;
+  top: 380px;
+  left: 330px;
+  width: 150px;
+  height: 45px;
+  font-size: 17px;
+  padding: 0;
+  cursor: pointer;
+  align-self: center;
+  background: black;
+  z-index: 2;
+}
+
+.about-parallax__provide {
+  opacity: 0;
+  width: 360px;
+  height: 340px;
+  background-color: #101a30;
+  padding: 50px;
+  border-radius: 15px;
+  align-self: center;
+}
+
+.about-parallax__provide-header {
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  font-size: 36px;
+  line-height: 58px;
+  margin: 0 0 20px;
+  color: white;
+}
+
+.about-parallax__provide-feature {
+  font-family: "poppins", sans-serif, Arial;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  gap: 20px;
+}
+
+.about-parallax__provide-checkmark {
+  width: 25px;
+  height: 25px;
+}
+
+.about-parallax__provide-text {
+  margin: 0;
+}
+
+.about-parallax__parallax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1680px) {
+  .about-parallax__parallax-text {
+    /* left: 80px; */
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .about-parallax__parallax {
+    /* height: 450px; */
+  }
+  .about-parallax__parallax-header {
+    font-size: 40px;
+    line-height: 54px;
+    width: 360px;
+  }
+  .about-parallax__parallax-text {
+    font-size: 18px;
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .about-parallax__parallax {
+    height: 475px;
+  }
+  .about-parallax__parallax-header {
+    font-size: 35px;
+    line-height: 45px;
+    width: 330px;
+  }
+  .about-parallax__parallax-text {
+    font-size: 18px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .about-parallax__parallax {
+    flex-direction: column-reverse;
+    height: 1000px;
+  }
+  .about-parallax__text-container {
+    margin: 40px 0 0;
+    text-align: center;
+  }
+  .about-parallax__parallax-header {
+    margin: auto;
+  }
+  .about-parallax__parallax-text {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about-parallax__parallax {
+    width: calc(100% - 40px);
+  }
+  .about-parallax__parallax-text {
+    /* left: 60px;
+    font-size: 40px;
+    width: 420px; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-parallax__parallax {
+    /* height: 340px; */
+  }
+  .about-parallax__parallax-header {
+    max-width: 330px;
+    width: 100%;
+  }
+  .about-parallax__parallax-text {
+    max-width: 475px;
+    width: 100%;
+
+    /* left: 40px;
+    font-size: 35px;
+    bottom: 70px;
+    width: 370px; */
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .about-parallax__parallax {
+    /* height: 290px; */
+  }
+  .about-parallax__parallax-text {
+    /* font-size: 30px;
+    width: 270px;
+    bottom: 50px; */
+  }
+}
