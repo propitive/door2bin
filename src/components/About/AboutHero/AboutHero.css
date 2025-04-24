@@ -101,7 +101,7 @@
   .about-hero__button {
     width: 210px;
     height: 45px;
-    margin: 20px 0 0;
+    margin: 20px auto 0;
   }
   .about-hero__image {
     height: 250px;

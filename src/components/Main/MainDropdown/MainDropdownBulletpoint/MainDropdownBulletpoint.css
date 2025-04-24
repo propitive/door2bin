@@ -37,8 +37,11 @@
 
 @media screen and (max-width: 540px) {
   .dropdown-bulletpoint {
-    margin-top: -20%;
+    margin-top: -27%;
   }
+  /* .dropdown-bulletpoint__expanded:last-of-type {
+    margin: 15px 0 20px;
+  } */
   .dropdown-bulletpoint__expanded {
     margin: 10px 0 20px;
   }

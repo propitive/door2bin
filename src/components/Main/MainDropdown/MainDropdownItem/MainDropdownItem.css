@@ -111,7 +111,7 @@
   .dropdown-item__bulletpoints {
   }
   .dropdown-bulletpoint {
-    height: 65px;
+    height: auto;
     gap: 15px;
   }
   .dropdown-bulletpoint__bulletsymbol {
