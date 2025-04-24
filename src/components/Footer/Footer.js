@@ -11,10 +11,10 @@ function Footer({ handleEmailListModalOpen }) {
             <p className="footer__column-link">Home</p>
           </Link>
           <Link
-            to="/soccer/mens/mls/fc-dallas"
+            to="/about-us"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
-            <p className="footer__column-link">Fc Dallas</p>
+            <p className="footer__column-link">About</p>
           </Link>
           {/* <Link
             to="/services/kitchen-cabinets"
@@ -47,7 +47,7 @@ function Footer({ handleEmailListModalOpen }) {
             <p className="footer__column-link">Gallery</p>
           </Link>
         </div> */}
-        <div className="footer__column">
+        {/* <div className="footer__column">
           <h4 className="footer__column-title">Socials</h4>
           <p className="footer__column-link">
             <a
@@ -67,7 +67,8 @@ function Footer({ handleEmailListModalOpen }) {
               Instagram
             </a>
           </p>
-        </div>
+        </div> */}
+        {/* ABOVE IS THE COLUMN FOR SOCIALS!!!!!!!!!!!!! */}
       </div>
       <EmailListForm handleEmailListModalOpen={handleEmailListModalOpen} />
     </footer>

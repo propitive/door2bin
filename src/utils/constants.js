@@ -51,3 +51,16 @@ export const SidebarData = [
     title: "About",
   },
 ];
+
+export const serviceOptions = [
+  {
+    label: "Security Consulting and Hardening",
+    value: "Security Consulting and Hardening",
+  },
+  {
+    label: "Cloud Migration and Implementations",
+    value: "Cloud Migration and Implementations",
+  },
+  { label: "CI/CD Processes", value: "CI/CD Processes" },
+  { label: "Backup and Recovery", value: "Backup and Recovery" },
+];

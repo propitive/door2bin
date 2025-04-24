@@ -33,7 +33,9 @@
 @import url("/src/components/Main/MainServices/MainServices.css");
 @import url("/src/components/Main/MainSteps/MainSteps.css");
 @import url("/src/components/Main/MainSteps/MainStep/MainStep.css");
+@import url("/src/components/Modal/ModalContactForm/ModalContactForm.css");
 @import url("/src/components/Modal/ModalEmailList/ModalEmailList.css");
+@import url("/src/components/Modal/ModalGetAQuote/ModalGetAQuote.css");
 @import url("/src/components/Modal/ModalTemplate/ModalTemplate.css");
 @import url("/src/components/SidebarDropdown/SidebarDropdownBulletpoint/SidebarDropdownBulletpoint.css");
 @import url("/src/components/SidebarDropdown/SidebarDropdownItem/SidebarDropdownItem.css");

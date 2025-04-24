@@ -16,7 +16,7 @@ function EmailListForm({
     emailjs
       .sendForm(
         "service_hba1kuy",
-        "template_49vri48",
+        "template_z4snumq",
         form.current,
         "jGNwN29o5MpAtqpNz"
       )

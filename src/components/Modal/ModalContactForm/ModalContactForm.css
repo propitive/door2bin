@@ -1,0 +1,50 @@
+.modal-submit__paragraph {
+  font-family: "Inclusive Sans", sans-serif, Arial;
+  margin: 0 0 40px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 500px;
+}
+
+@media screen and (max-width: 750px) {
+  .modal-submit__paragraph {
+    margin: 60px 0 40px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .modal-submit__paragraph {
+    margin: 50px 0 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .modal-submit__paragraph {
+    margin: 60px 0 20px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .modal-submit__paragraph {
+    margin: 40px 0 20px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modal-submit__paragraph {
+    letter-spacing: 0.4px;
+    line-height: 25px;
+    font-size: 17px;
+    margin: 40px 0 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .modal-submit__paragraph {
+    width: 260px;
+    margin: 40px 0 0;
+  }
+}

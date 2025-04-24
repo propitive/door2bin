@@ -34,10 +34,13 @@
   /* padding: 34px 36px 34px; */
   padding: 24px 26px 24px;
   position: absolute;
+  /* max-width: 900px; */
+
+  margin: calc(100% - 220px);
 }
 
 .modal__title {
-  font-family: "Poppins", serif;
+  font-family: "Radio Canada Big", sans-serif, Arial;
   text-align: center;
   height: 65px;
   /* transform: translateY(15px); */
@@ -166,10 +169,10 @@
   align-items: center;
   width: 100%;
   height: 64px;
-  background-color: #c50b30;
-  outline: 3px #c50b30 solid;
+  background-color: #046a38;
+  outline: 3px #046a38 solid;
   outline-offset: -3px;
-  border-radius: 20px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
   transition: 400ms;
@@ -217,6 +220,12 @@
   top: -40px;
   right: -40px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .modal__form {
+    max-width: 800px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -280,6 +289,13 @@
 }
 
 @media screen and (max-width: 500px) {
+  /* .modal__form {
+    max-width: 320px;
+    height: 270px;
+  }
+  .modal-submit__paragraph {
+    margin: 0 0 30px;
+  } */
   .modal__button-close {
     top: -50px;
     right: -10px;
