@@ -9,7 +9,7 @@ function Main({ handleOpenModal }) {
   return (
     <>
       <Helmet>
-        <title>Door2Bin</title>
+        <title>Home | Door2Bin</title>
         <meta
           name="description"
           content="Door2Bin offers reliable and eco-friendly valet trash services across North Texas. Serving Dallas, Fort Worth, Plano, and surrounding areas, we provide doorstep waste collection for apartments, condos, and multifamily communities. Experience hassle-free trash pickup with our licensed and insured team, ensuring cleanliness and convenience for residents and property managers alike."
