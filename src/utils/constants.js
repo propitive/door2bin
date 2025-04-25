@@ -5,24 +5,6 @@ export const menuNavItems = [
     path: "/services/securityConsulting",
     className: "nav-item",
   },
-  {
-    id: 2,
-    title: "Cloud Migration",
-    path: "/services/cloudMigration",
-    className: "nav-item",
-  },
-  {
-    id: 3,
-    title: "CI/CD",
-    path: "/services/ciCd",
-    className: "nav-item",
-  },
-  {
-    id: 4,
-    title: "Backup And Recovery",
-    path: "/services/backupAndRecovery",
-    className: "nav-item",
-  },
 ];
 
 export const dropdownSidebarContentMenu = {
@@ -54,13 +36,7 @@ export const SidebarData = [
 
 export const serviceOptions = [
   {
-    label: "Security Consulting and Hardening",
-    value: "Security Consulting and Hardening",
+    label: "Trash Valet",
+    value: "Trash Valet",
   },
-  {
-    label: "Cloud Migration and Implementations",
-    value: "Cloud Migration and Implementations",
-  },
-  { label: "CI/CD Processes", value: "CI/CD Processes" },
-  { label: "Backup and Recovery", value: "Backup and Recovery" },
 ];
