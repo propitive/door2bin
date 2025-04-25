@@ -45,7 +45,7 @@ function EmailListForm({
         <input
           className="email-list__input"
           name="user-email"
-          type="text"
+          type="email"
           placeholder="What's your email?"
           required
         />

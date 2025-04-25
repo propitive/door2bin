@@ -30,14 +30,37 @@
   .email-list__input {
     width: -webkit-fill-available;
   }
+  .email-list__button {
+    font-size: 17px;
+    width: 250px;
+  }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 650px) {
+  .email-list__button {
+    font-size: 15px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .email-list__button {
+    font-size: 15px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .email-list__form {
     flex-direction: column;
     gap: 15px;
   }
   .email-list__input {
     width: calc(100% - 12px);
+  }
+  .email-list__button {
+    height: 40px;
+    font-size: 17px;
+    width: -webkit-fill-available;
   }
 }
