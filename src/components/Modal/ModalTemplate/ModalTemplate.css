@@ -203,11 +203,11 @@
 }
 
 .modal__button:hover .modal__button-text {
-  color: #c50b30;
+  color: #046a38;
 }
 
 .modal__button:hover .modal__button-svg path {
-  fill: #c50b30;
+  fill: #046a38;
 }
 
 .modal__button-close {
