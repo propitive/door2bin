@@ -36,7 +36,7 @@
   position: absolute;
   /* max-width: 900px; */
 
-  margin: calc(100% - 220px);
+  /* margin: calc(100% - 220px); */
 }
 
 .modal__title {
@@ -55,6 +55,8 @@
   /* font-family: "Radio Canada Big", sans-serif, Arial; */
   /* font-size: 24px; */
   font-weight: 600;
+
+  /* width: -webkit-fill-available; */
 }
 
 .modal-template {

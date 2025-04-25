@@ -5,7 +5,7 @@ function ModalContactForm({ handleCloseModal, isOpen }) {
     <ModalTemplate
       isOpen={isOpen}
       handleCloseModal={handleCloseModal}
-      title={"Secured with Gratitude!"}
+      title={"Thank you so much!"}
       buttonText={"About Us"}
       link={"/about"}
     >
