@@ -5,7 +5,7 @@ import MainFeatures from "./MainFeatures/MainFeatures";
 import MainServices from "./MainServices/MainServices";
 import MainSteps from "./MainSteps/MainSteps";
 
-function Main() {
+function Main({ handleOpenModal }) {
   return (
     <>
       <Helmet>
@@ -18,7 +18,7 @@ function Main() {
       </Helmet>
 
       <div className="main">
-        <MainParallax />
+        <MainParallax handleOpenModal={handleOpenModal} />
         <MainFeatures />
         <MainServices />
         <MainSteps />

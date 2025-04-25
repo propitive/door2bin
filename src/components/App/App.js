@@ -35,7 +35,7 @@ function App() {
           <About />
         </Route>
         <Route path="/">
-          <Main />
+          <Main handleOpenModal={() => toggleModal("quote", true)} />
         </Route>
       </Switch>
       <Footer handleEmailListModalOpen={() => toggleModal("emailList", true)} />

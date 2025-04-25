@@ -218,7 +218,7 @@
     height: 24px;
   }
   .main__parallax-button-about {
-    width: auto;
+    width: -webkit-fill-available;
     height: 50px;
     font-size: 20px;
   }

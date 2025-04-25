@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 import React, { useState, useEffect } from "react";
 import { Parallax } from "react-parallax";
 import mainParallax from "../../../images/components/main/mainParallax.jpg";
 import BookOnlineButton from "../../BookOnlineButton/BookOnlineButton";
 
-function MainParallax() {
+function MainParallax({ handleOpenModal }) {
   const [bgHeight, setBgHeight] = useState("700px");
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 650);
 
@@ -59,13 +61,27 @@ function MainParallax() {
           <BookOnlineButton
             buttonText="Request A Quote"
             className="main__parallax-button-cta"
+            handleOpenModal={handleOpenModal}
+            toggleSidebar={() => null}
             isArrowVisible={true}
           />
-          <BookOnlineButton
-            buttonText="About Us"
-            className="main__parallax-button-about"
-            isArrowVisible={false}
-          />
+          <Link
+            to="/about-us"
+            style={{
+              textDecoration: "none",
+              // color: "#f5f0f0",
+              // display: "flex",
+              // alignItems: "center",
+            }}
+          >
+            <BookOnlineButton
+              buttonText="About Us"
+              className="main__parallax-button-about"
+              isArrowVisible={false}
+              handleOpenModal={() => null}
+              toggleSidebar={() => null}
+            />
+          </Link>
         </div>
       </div>
       {/* <div className="main__parallax-overlay"></div> */}

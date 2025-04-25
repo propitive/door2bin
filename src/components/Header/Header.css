@@ -368,7 +368,7 @@
     height: 40px;
   }
   .react-parallax {
-    z-index: -10;
+    /* z-index: -10; */
   }
   .k-cabinets__color-section {
     position: relative;
