@@ -135,6 +135,11 @@ function ModalGetAQuote({ handleCloseModal, handleOpenSubmit, isOpen }) {
               background: "transparent",
               borderRadius: 0,
             }),
+            placeholder: (baseStyles) => ({
+              ...baseStyles,
+              color: "black",
+              // fontStyle: "italic",
+            }),
           }}
           ref={service}
         />
