@@ -19,7 +19,7 @@ function App() {
   const [modals, setModals] = useState({
     emailList: false,
     contactForm: false,
-    quote: true,
+    quote: false,
   });
 
   const toggleModal = (modalType, isOpen) => {

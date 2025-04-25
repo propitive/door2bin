@@ -39,7 +39,7 @@ function AboutParallax() {
     { text: "Consistent & Reliable Pickup" },
     { text: "Eco-Friendly Approach" },
     { text: "Exceptional Customer Support" },
-    { text: "Tax Write Off (Landscaping Service)" },
+    { text: "Reduced Maintenance & Pest Control Cost" },
   ];
 
   return (
