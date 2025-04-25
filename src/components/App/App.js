@@ -18,7 +18,7 @@ console.log(ScrollToTop);
 function App() {
   const [modals, setModals] = useState({
     emailList: false,
-    contactForm: true,
+    contactForm: false,
     quote: false,
   });
 
