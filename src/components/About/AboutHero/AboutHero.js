@@ -2,7 +2,7 @@ import logo from "../../../images/components/main/door2bin-logo__main-green.png"
 
 import BookOnlineButton from "../../BookOnlineButton/BookOnlineButton";
 
-function AboutHero() {
+function AboutHero({ handleOpenModal }) {
   return (
     <div className="about-hero">
       <div className="about-hero__text">
@@ -23,6 +23,8 @@ function AboutHero() {
         <BookOnlineButton
           className="about-hero__button"
           buttonText="Request A Quote"
+          handleOpenModal={handleOpenModal}
+          toggleSidebar={() => null}
           isArrowVisible={true}
         />
       </div>

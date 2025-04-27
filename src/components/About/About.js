@@ -5,7 +5,7 @@ import AboutHow from "./AboutHow/AboutHow";
 import AboutParallax from "./AboutParallax/AboutParallax";
 import AboutValues from "./AboutValues/AboutValues";
 
-function About() {
+function About({ handleOpenModal }) {
   return (
     <>
       <Helmet>
@@ -19,7 +19,7 @@ function About() {
 
       <div className="about">
         {/* <AboutHow /> */}
-        <AboutHero />
+        <AboutHero handleOpenModal={handleOpenModal} />
         <AboutParallax />
         <AboutValues />
       </div>

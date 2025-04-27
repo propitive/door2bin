@@ -32,7 +32,7 @@ function App() {
       <Header handleOpenModal={() => toggleModal("quote", true)} />
       <Switch>
         <Route path="/about-us">
-          <About />
+          <About handleOpenModal={() => toggleModal("quote", true)} />
         </Route>
         <Route path="/">
           <Main handleOpenModal={() => toggleModal("quote", true)} />

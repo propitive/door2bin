@@ -29,6 +29,11 @@ export const dropdownSidebarContentMenu = {
 export const SidebarData = [
   {
     cName: "nav-text",
+    path: "/",
+    title: "Home",
+  },
+  {
+    cName: "nav-text",
     path: "/about-us",
     title: "About",
   },
